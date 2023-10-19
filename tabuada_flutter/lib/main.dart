@@ -28,7 +28,7 @@ class _TabuadaScreenState extends State<TabuadaScreen> {
     if (numero != null) {
       setState(() {
         resultados.clear();
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 20; i++) {
           resultados.add('$numero x $i = ${numero * i}');
         }
       });
